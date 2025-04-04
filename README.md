@@ -3,6 +3,8 @@ This is a terminal based word guessing game written in C++ using:
 -CPR for HTTP requests
 -nlohmann/json for JSON parsing
 
+Make sure your using a C++ compiler that is C++17 or newer or else it won't work.
+
 How to run:
 (Note: It might take a while for vcpkg to download and I apologize for that but I didn't find another way to implement an API)
 1. Clone the repo
