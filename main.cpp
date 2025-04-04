@@ -8,7 +8,7 @@ using json = nlohmann::json;
 
 using namespace std;
 
-const int MAXWRONG = 10;
+const int MAXWRONG = 7;
 
 string getWord() {
 	auto response = cpr::Get(cpr::Url{"https://random-word-api.vercel.app/api?words=1&length=6"});
