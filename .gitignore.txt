@@ -1,0 +1,23 @@
+# Visual Studio folders
+.vs/
+*.suo
+*.user
+*.VC.db
+*.VC.VC.opendb
+
+# IntelliSense cache
+*.ipch
+
+# Build output
+x64/
+Debug/
+Release/
+*.obj
+*.exe
+*.pch
+*.log
+
+# Vcpkg build artifacts
+buildtrees/
+packages/
+installed/
